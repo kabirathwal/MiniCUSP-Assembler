@@ -1,0 +1,10 @@
+    POPF
+label1:
+    POPX
+label2:
+    PSHF
+value:
+    CMA value
+    JEQ value
+value:
+    .word 3B

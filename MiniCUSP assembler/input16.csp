@@ -1,0 +1,29 @@
+    LDX # n
+    STX j
+    LDX # 0
+    STX i
+loop:
+    CMX # n
+    JGE done
+    LDA + a
+    LDX j
+    STA + b
+    LDX i
+done:
+    HLT
+n:
+    .word 4
+i:
+    .word 202020
+j:
+    .word FFFFFF
+a:
+    .word 17
+    .word 5
+    .word 689
+    .word 57
+b:
+    .word 1
+    .word 1
+    .word 1
+    .word 1

@@ -1,0 +1,149 @@
+label01:
+label02:
+    .word 58
+    SHRA
+label03:
+label04:
+    .word 97
+    .word FDA
+    .word E03
+    SHLA
+label05:
+    .word 11
+    .word 1
+    CMS 53
+    SHLA
+    CMS + ! embed
+    CMS + ! 53
+    CMS + ! $53
+    LDA ii
+    CMS & ! $53
+label06:
+label07:
+label08:
+what:
+other:
+label:
+names:
+can:
+i:
+come:
+up:
+with:
+    STA & $67
+    LDA day
+    LDA # great
+    STA & $67
+    STA & funny
+    STA & $67
+    STA & $67
+    STA & $67
+    STA & $67
+    STA & $67
+    STA & code
+    STA & $67
+    STA & $67
+    STA & $67
+    STA & $67
+    POPA
+    PSHA
+    HLT
+    HLT
+    HLT
+will:
+these:
+labels:
+mess:
+withh:
+your:
+code:
+    HLT
+let:
+us:
+find:
+out:
+blah:
+blah2:
+blah3:
+    .word 100000
+    .word 10000
+    LDA & ! blah3
+    LDA & ! blah2
+    LDA & ! blah
+    .word 1000
+    .word 100
+    .word 10
+    .word 1
+    .word F00000
+    .word F0000
+    .word F000
+    .word F00
+    .word F0
+    .word F
+    .word 100000
+    .word 10000
+    .word 1000
+    .word 100
+    .word 10
+    .word 1
+    .word F00000
+    .word F0000
+    .word F000
+    .word F00
+    .word F0
+    .word F
+    .word 58
+    .word 9BE
+    .word FEB89C
+    .word FFFFA
+    .word 58
+    .word 9BE
+    .word FEB89C
+    .word FFFFA
+    .word 58
+    .word 9BE
+    .word FEB89C
+    .word FFFFA
+the:
+answer:
+to:
+final:
+problem:
+on:
+ur:
+last:
+exam:
+is:
+just:
+kid:
+ing:
+ii:
+wont:
+embed:
+examm:
+hints:
+here:
+    LDA 53
+    LDX 97
+itd:
+be:
+funny:
+if:
+idid:
+that:
+though:
+    JLT $6
+have:
+a:
+nice:
+day:
+    CMA $9
+    LDA # thanks
+thanks:
+for:
+great:
+quarter:
+    CMA label01
+    CMA # ! $59
+    CMA label02
+    CMA quarter
