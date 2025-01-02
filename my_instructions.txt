@@ -1,0 +1,23 @@
+label1:
+    POPA
+label2:
+label3:
+    LDA # label4
+    LDA label4
+    JLT label1
+    HLT
+label4:
+    .word 53
+    .word 9
+    .word 9
+    .word 9
+    .word 9
+    .word 9
+    .word 9
+label5:
+    LDA $35
+    LDF + $80
+    LDS & ! $90
+    LDS & ! 90
+    .word 7
+    

@@ -1,0 +1,9 @@
+    LDA blah2
+blah:
+    LDX blah
+    LDF blah2
+    LDF # blah
+    CLR blah
+blah2:
+    ADF # blah2
+    SBA blah
